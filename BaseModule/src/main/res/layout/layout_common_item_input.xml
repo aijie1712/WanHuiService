@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="45dp">
+
+    <ImageView
+        android:id="@+id/iv_tag"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="9dp" />
+
+    <View
+        android:id="@+id/view_divide"
+        android:layout_width="1dp"
+        android:visibility="gone"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/iv_tag"
+        android:background="@color/global_split_line_color" />
+
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/view_divide"
+        android:background="@color/transparent"
+        android:ellipsize="end"
+        android:lines="1"
+        android:paddingRight="45dp"
+        android:textColor="@color/global_text_color"
+        android:textColorHint="@color/input_item_hint_color"
+        android:textSize="@dimen/text_14"
+        tools:hint="请填写用户名" />
+
+    <ImageView
+        android:id="@+id/iv_hide"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/icon_eye_close"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/iv_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/iv_hide"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/icon_input_delete"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/global_split_line_color" />
+</RelativeLayout>

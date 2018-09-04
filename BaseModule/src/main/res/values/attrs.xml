@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--ViewPager指示器-->
+    <declare-styleable name="TabsView">
+        <attr name="tabMode">
+            <enum name="fixed" value="101" />
+            <enum name="scrollable" value="102" />
+        </attr>
+        <attr name="minWidth" format="dimension" />
+    </declare-styleable>
+    <!--首页tab-->
+    <declare-styleable name="TabView">
+        <attr name="tab_textViewSelColor" format="reference|color" />
+        <attr name="tab_textViewUnSelColor" format="reference|color" />
+        <attr name="tab_tabViewBackgroundColor" format="reference|color" />
+        <attr name="tab_tabViewHeight" format="dimension|reference" />
+        <attr name="imageViewTextViewMargin" format="dimension|reference" />
+        <attr name="tab_textViewSize" format="dimension|reference" />
+        <attr name="tab_imageViewWidth" format="dimension|reference" />
+        <attr name="tab_imageViewHeight" format="dimension|reference" />
+        <attr name="tab_tabViewGravity">
+            <flag name="top" value="0x30" />
+            <flag name="bottom" value="0x50" />
+            <flag name="left" value="0x03" />
+            <flag name="right" value="0x05" />
+        </attr>
+        <attr name="tab_tabViewDefaultPosition" format="integer" />
+    </declare-styleable>
+
+    <!--控制TextView的Drawable属性的大小-->
+    <declare-styleable name="DrawableTextView">
+        <attr name="drawableWidth" format="dimension|reference" />
+        <attr name="drawableHeight" format="dimension|reference" />
+    </declare-styleable>
+
+    <!--登录等使用的inputView-->
+    <declare-styleable name="InputItemView">
+        // 文本输入类型
+        <attr name="input_editText_Type">
+            <enum name="string" value="101" />
+            <enum name="number" value="102" />
+            <enum name="phone" value="103" />
+            <enum name="pwd" value="104" />
+        </attr>
+        <attr name="input_max_length" format="integer" />
+        <attr name="iv_tag" format="reference" />
+        <attr name="input_hint" format="string|reference" />
+        <attr name="input_show_hide_image" format="boolean" />
+        <attr name="input_show_del_image" format="boolean" />
+    </declare-styleable>
+
+    <!--通用标题-->
+    <declare-styleable name="CommonTitle">
+        <attr name="showBack" format="boolean" />
+        <attr name="showDivideLine" format="boolean" />
+        <attr name="titleCenter" format="reference|string" />
+        <attr name="titleRight" format="reference|string" />
+        <attr name="iv_left" format="reference" />
+        <attr name="iv_right" format="reference" />
+        <attr name="title_bg_color" format="reference|color" />
+        <attr name="title_text_color" format="reference|color" />
+    </declare-styleable>
+
+    <!--通用item-->
+    <declare-styleable name="CommonItem1">
+        <attr name="img_item" format="reference" />
+        <attr name="text_item" format="reference" />
+        <attr name="textsize_item" format="string|reference" />
+        <attr name="textcolor_item" format="reference" />
+        <attr name="background_item" format="reference" />
+        <attr name="arrow_item" format="reference" />
+        <attr name="right_text_item" format="string|reference" />
+        <attr name="right_textsize_item" format="reference" />
+        <attr name="right_textcolor_item" format="reference" />
+    </declare-styleable>
+
+    <!--圆形图片控件-->
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+    <!--发送验证码View-->
+    <declare-styleable name="SendVerifyCodeView">
+        <!--发送之前的文本提示-->
+        <attr name="before_send_text" format="reference|string" />
+        <!--发送中的文本提示-->
+        <attr name="send_ing" format="reference|string" />
+        <!--发送后的文本提示-->
+        <attr name="send_after" format="string|reference" />
+        <!--发送成功之后等待的时间-->
+        <attr name="wait_time" format="integer" />
+        <!--发送按钮的背景-->
+        <attr name="background" format="reference" />
+    </declare-styleable>
+
+    <!--状态View-->
+    <declare-styleable name="StateView">
+        <attr name="emptyResource" format="reference" />
+        <attr name="retryResource" format="reference" />
+        <attr name="loadingResource" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundImageView">
+        <!-- 描边宽度-->
+        <attr name="border_width" format="dimension" />
+        <!-- 描边颜色-->
+        <attr name="border_color" format="color" />
+        <!--圆角大小-->
+        <attr name="corner_radius" format="dimension" />
+        <!--左上圆角大小-->
+        <attr name="leftTop_corner_radius" format="dimension" />
+        <!--右上圆角大小-->
+        <attr name="rightTop_corner_radius" format="dimension" />
+        <!--左下圆角大小-->
+        <attr name="leftBottom_corner_radius" format="dimension" />
+        <!--右下圆角大小-->
+        <attr name="rightBottom_corner_radius" format="dimension" />
+        <!--图片类型：圆角或者圆形-->
+        <attr name="type" format="enum">
+            <enum name="oval" value="2" />
+            <enum name="round" value="1" />
+            <enum name="circle" value="0" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="RatingBar">
+        <!--尺寸值-->
+        <attr name="starImageSize" format="dimension" />
+        <!--星星间距-->
+        <attr name="starPadding" format="dimension" />
+        <!--星星总数-->
+        <attr name="starCount" format="integer" />
+        <!--空白的星星资源文件值-->
+        <attr name="starEmpty" format="reference" />
+        <!--满星资源文件值-->
+        <attr name="starFill" format="reference" />
+        <!--半星资源文件值-->
+        <attr name="starHalf" format="reference" />
+        <!--是否可点击boolean值-->
+        <attr name="clickable" format="boolean" />
+        <!--当前进度float值-->
+        <attr name="starStep" format="float" />
+        <!--每次进度方式的值，整星还是半星-->
+        <attr name="stepSize">
+            <enum name="Half" value="0" />
+            <enum name="Full" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!--圆形进度条控件-->
+    <declare-styleable name="RoundProgressView">
+
+        <attr name="progress_border_width" format="integer" />
+        <attr name="progress_border_color" format="color" />
+        <attr name="progress_default_border_color" format="color" />
+        <attr name="progress_background_color" format="color" />
+        <attr name="progress_milli_second" format="integer" />
+
+        <attr name="progress_text" format="string"/>
+        <attr name="progress_text_color" format="color"/>
+        <attr name="progress_text_size" format="dimension"/>
+
+        <attr name="progress_image_resource" format="reference" />
+        <attr name="progress_image_scale" format="float" />
+
+        <attr name="progress_mode">
+            <enum name="auto" value="1" />
+            <enum name="update" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

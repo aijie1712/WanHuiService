@@ -1,0 +1,30 @@
+Microsoft Windows [版本 6.1.7601]
+版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+
+C:\Users\klx>cd C:\F\mayun\FactoryManager\key
+
+C:\F\mayun\FactoryManager\key>keytool -list  -v -keystore FactoryManager.jks -st
+orepass hello123123
+
+密钥库类型: JKS
+密钥库提供方: SUN
+
+您的密钥库包含 1 个条目
+
+别名: manager
+创建日期: 2018-7-24
+条目类型: PrivateKeyEntry
+证书链长度: 1
+证书[1]:
+所有者: CN=a, OU=a, O=a, L=a, ST=a, C=a
+发布者: CN=a, OU=a, O=a, L=a, ST=a, C=a
+序列号: 4cf14cb4
+有效期开始日期: Tue Jul 24 08:54:13 CST 2018, 截止日期: Sat Jul 18 08:54:13 CST
+2043
+证书指纹:
+         MD5: BD:19:BB:45:D6:39:03:48:C0:81:49:E9:E0:A6:F0:16
+         SHA1: BD:98:5C:91:AE:DC:3B:38:67:40:BA:9B:BF:E2:EB:92:5E:4B:6F:08
+         SHA256: B2:FB:63:A5:E7:0D:65:C5:9C:A5:07:BF:49:F9:A6:2A:72:9C:5F:7A:D5:
+96:F4:9E:6E:A3:5F:62:64:17:0F:D0
+         签名算法名称: SHA256withRSA
+         版本: 3

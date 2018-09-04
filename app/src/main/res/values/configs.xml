@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="umeng_app_id">5b8e29cb8f4a9d5d0a00005e</string>
+    <string name="weixin_app_id">wx184968177736ec5b</string>
+    <string name="weixin_app_secret">4b7024535a75e898668feaecd625187a</string>
+
+    <string name="web_url">http://www.zgwhjf.com</string>
+</resources>

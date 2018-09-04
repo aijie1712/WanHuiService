@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--swipeRefreshLayout-->
+    <color name="pink_dark">#F6695F</color>
+    <color name="pink_light">#FF948E</color>
+    <color name="colorAccentDark">#7851A9</color>
+
+    <!--分割线颜色-->
+    <color name="global_split_line_color">#F0F0F0</color>
+    <color name="sidebar_press_bg">#E8E9EB</color>
+    <!--全局背景颜色-->
+    <color name="global_bg_color">#F8F8F8</color>
+    <color name="top_bar_bg_color">#24DC9E</color>
+
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#DDDDDD</color>
+    <color name="blue">#4368ff</color>
+    <color name="transparent">#00000000</color>
+    <!--标题文本颜色-->
+    <color name="global_title_bar_color">#000000</color>
+    <!--全局大文本颜色-->
+    <color name="global_text_color">#333333</color>
+    <color name="global_text_333">#333333</color>
+    <color name="global_text_color_middle">#666666</color>
+    <color name="global_text_color_hint">#999999</color>
+
+    <!--输入框-->
+    <color name="input_item_hint_color">#CCAAAAAA</color>
+
+</resources>

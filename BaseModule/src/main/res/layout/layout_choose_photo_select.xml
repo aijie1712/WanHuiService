@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/global_bg_color"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_pick_from_take"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@drawable/bg_white_to_grey"
+        android:gravity="center"
+        android:padding="10dip"
+        android:text="@string/pic_tack_camera"
+        android:textColor="@color/global_text_color"
+        android:textSize="@dimen/text_16" />
+
+    <TextView
+        android:id="@+id/tv_pick_from_dicm"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_white_to_grey"
+        android:gravity="center"
+        android:padding="10dip"
+        android:text="@string/pic_tack_from_album"
+        android:textColor="@color/global_text_color"
+        android:textSize="@dimen/text_16" />
+
+    <TextView
+        android:id="@+id/tv_show_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1"
+        android:background="#F3F3F3"
+        android:gravity="center"
+        android:padding="10dip"
+        android:text="取消"
+        android:textColor="#666666"
+        android:textSize="@dimen/text_16" />
+
+</LinearLayout>

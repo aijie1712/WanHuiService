@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tabview_id" type="id" />
+    <item name="tabview_fragment_container" type="id" />
+    <!--下拉刷新-->
+    <item name="swipe_refresh" type="id" />
+    <!--glide-->
+    <item type="id" name="tag_glide" />
+</resources>

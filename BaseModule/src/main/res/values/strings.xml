@@ -1,0 +1,29 @@
+<resources>
+    <string name="loading">加载中...</string>
+    <string name="camera_not_prepared">摄像头尚未准备好,发送失败</string>
+    <!--net error-->
+    <string name="net_error">网络异常，请重试</string>
+
+    <!--权限-->
+    <string name="downloadPermissionTip">下载需要读写外部存储卡的权限，请先设置</string>
+    <string name="qrCodePermissionTip">扫描二维码需要打开相机和散光灯的权限,请先设置</string>
+    <string name="voicePermissionTip">录音需要录音和存储卡的权限,请先设置</string>
+    <string name="videoPermissionTip">视频需要摄像头和存储卡的权限,请先设置</string>
+    <string name="cancel">取消</string>
+    <string name="cut">剪切</string>
+    <string name="tip">提示</string>
+    <string name="goSetting">去设置</string>
+    <string name="takePicPermissionTip">拍照需要相机权限</string>
+    <string name="choosePicPermissionTip">选取图片需要读取存储卡的权限</string>
+
+    <!--stateView-->
+    <string name="text_empty">还没有数据呢！</string>
+    <string name="text_retry">获取数据失败，点击重试！</string>
+
+        <!--dialog-->
+    <string name="pic_tack_camera">拍照</string>
+    <string name="pic_tack_from_album">从手机相册选择</string>
+    <string name="delete_pic">删除图片</string>
+
+    <string name="back">返回</string>
+</resources>
